@@ -1,1 +1,0 @@
-/usr/bin/c++ -std=c++11 -O3 -O3 -DNDEBUG CMakeFiles/demo02.dir/demo02.cpp.o -o demo02  -lg2o_core -lg2o_stuff -lg2o_solver_csparse -lg2o_solver_cholmod -lg2o_solver_pcg 
