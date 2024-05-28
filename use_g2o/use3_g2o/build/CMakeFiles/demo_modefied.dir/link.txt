@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 -O3 -O3 -DNDEBUG CMakeFiles/demo_modefied.dir/demo_modefied.cpp.o -o demo_modefied  -lg2o_core -lg2o_stuff 

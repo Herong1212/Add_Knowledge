@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 -O3 -O3 -DNDEBUG CMakeFiles/demo.dir/demo.cpp.o -o demo  -lg2o_core -lg2o_stuff 
