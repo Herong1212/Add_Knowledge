@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 -O3 CMakeFiles/demo02.dir/demo02.cc.o -o demo02  -lfmt 
