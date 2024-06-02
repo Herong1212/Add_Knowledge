@@ -22,14 +22,10 @@ public:
     MyVertexParams() = default; // 默认构造函数
 
     // 存盘
-    virtual bool read(std::istream &is)
-    {
-    }
+    virtual bool read(std::istream &is){}
 
     // 读盘
-    virtual bool write(std::ostream &os) const
-    {
-    }
+    virtual bool write(std::ostream &os) const{}
 
     // 顶点的重置函数(设定被优化顶点的初始值为 0)
     virtual void setToOriginImpl()
@@ -43,7 +39,6 @@ public:
         _estimate += Eigen::Vector3d(update);
     }
 };
-
 // ps2：边👇
 // 按照图2的流程，需要从基类中继承，由于我们这里顶点只有一个，所以就选用一元边，
 // 那么就从一元边的基类 BaseUnaryEdge 中继承，然后重写其中的一些重要虚函数
@@ -60,13 +55,9 @@ public:
 
     EdgePointOnCurve(double x) : BaseUnaryEdge(), _x(x) {}
 
-    virtual bool read(std::istream &is)
-    {
-    }
+    virtual bool read(std::istream &is){}
 
-    virtual bool write(std::ostream &os) const
-    {
-    }
+    virtual bool write(std::ostream &os) const{}
 
     // 计算曲线模型误差
     virtual void computeError()
